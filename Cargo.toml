@@ -1,0 +1,9 @@
+[package]
+name = "zero2prod" # the name of the package
+version = "0.1.0"    # the current version, obeying semver
+authors = ["Dorian <dorianliu4231@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.0"
+tokio = {version = "1", features = ["full"]}
